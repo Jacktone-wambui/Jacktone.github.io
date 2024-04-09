@@ -6,42 +6,50 @@
   <meta name="viewport" content="width=device-width">
   <title>Jacktones portfolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/52fc227538.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+ 
 </head>
 
 <body>
+     
+  <div class="sidebar">
+    <a href="#home">  <i class="fa-solid fa-house"></i>  Home</a>
+    <a href="#skills"><i class="fa-solid fa-skull-crossbones"></i> Skills</a>
+    <a href="#projects"><i class="fa-solid fa-screwdriver-wrench"></i>  Projects</a>
+    <a href="#services"><i class="fa-solid fa-file"></i>  Resume</a>
+    <a href="#contact"> <i class="fa-solid fa-address-book"></i> Contact</a>
+  </div>
+
   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
 
   <section id="home" class="home">
     <div class="text-box">
-      <h1 class="homeheading">Hi , I'm Jacktone Wambui</h1>
       <div class="hometxtimg">
         <div class="homeimg">
           <img src="Screenshot_20220815-212344_Instagram 1.png" alt="Jacktone Wambui" class="homeimg">
         </div>
 
         <div class="hometxt">
+          <h2>Hi , I'm Jacktone Wambui</h2>
           <h2 style="color: blue;">I'm a <span class="auto-input"></span></h2><br>
           <p style="color: blue;">"The Quality Of Life Is Determined By It's Activities"</p><br><br>
           <a href="https://api.whatsapp.com/send/?phone=0740213210&text&type=phone_number&app_absent=0"><i
               class="fab fa-whatsapp fa-3x"></i></a>
-          <a href="openEarth resume.pdf" download class="btn">Download cv</a>
+          <a href="Jacktones software developer.pdf" download class="btn">Download cv</a>
 
         </div>
 
       </div>
     </div>
-
-
   </section>
 
 
   <section id="about">
     <div class="content">
-      <h1 style="text-align: center; font-size: 3em; color: teal;">About Me</h1>
+      <h4 style="text-align: center; font-size: 3em; color: teal;">About Me</h4>
       <br>
       <div class="picha">
-
         <div class="slideshow-container">
 
           <div class="mySlides fade">
@@ -65,29 +73,28 @@
         </div>
         <br>
 
-        <div style="text-align:center">
+        
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-        </div>
+        
         <div class="pichatxt">
           <p>I am a strategic thinker and motivated individual with problem solving and teamwork as my core competencies
             with a great attention to detail and creating products with good user experience leading to product
-            growth.After years of listening to people complain about the softwares they were forced to to work with, I decided to champion for UX design during product development.My mission is to discover new ways of human/technology collaboration,
-            making sure every voice is heard.</p><br>
+            growth.My mission is to discover new ways of human/technology collaboration,
+            making sure every voice is heard.</p>
 
           <p>I like sharing knowledge with others, therefore I am a writer on Medium. I write about about UX
             Design,problem solving and Software Engineering.You can read my Articles<a
-              href="http://shorturl.at/biRUY">Here</a></p><br>
+              href="http://shorturl.at/biRUY">Here</a></p>
           <br>
         </div>
       </div>
     </div>
   </section>
 
- <div class="skills">
-  <div class="skillsone">
-    <h2>Skills</h2>
+ <section id="skills" class="skills">
+    <h4 style="text-align: center; font-size: 3em; color: teal;">Skills</h4>
     <ul>
       <li>
         <span>Design thinking:</span>
@@ -130,83 +137,31 @@
         <progress value="60" max="100">60%</progress>
       </li>
     </ul>
-  </div>
-</div>
-
-
-  </div>
+ </section>
 
 
   <section id="projects">
-    <h1 style="text-align: center; font-size: 3em; color: teal;">My projects</h1>
+    <h4 style="text-align: center; font-size: 3em; color: teal;">My projects</h4>
 
     <div class="flex-container">
       <div class="flexcontchild fccone">
         <a href="https://www.behance.net/gallery/152161973/SPACEYATECH-WEBSITE">
           <img src="Frame 349.png" class="ty"></a>
-        <p class="tot">I participated with a team of 45 designers in the design of a tech startup website
+        <p class="tot">I participated on an open-source project with a team of 5 designers in the design of a tech startup website
           that will link all techies together on mentorship and finding all resources</p>
       </div>
 
       <div class="flexcontchild fcctwo">
         <img src="omdena.png" class="ty">
-        <p class="tot">I participated as a researcher with a team of data scientists across the world
-          in the Omdena project titled, 'Tackling climate change using Machine learning and Artificial intelligence</p>
+        <p class="tot">I collaborated as a researcher and a Junior Machine Learning scientist  with a team comprising 51 data scientists across the world
+          in an Omdena project titled, 'Tackling climate change using Machine learning and Artificial intelligence</p>
       </div>
 
       <div class="flexcontchild fccthree">
-        <a href="https://jacktone-wambui.github.io/Wambuiconcerts/">
-          <img src="Screenshot_2022-10-12_22-49-00.png" class="ty tyshort"> </a>
+          <img src="Screenshot_2022-10-12_22-49-00.png" class="ty"> 
         <p class="tot">I am creating an events website where people
-          can create events and others within their location can book</p>
+          can create events and others within their location can book for the event and obtain tickets.</p>
       </div>
-
-
-    </div>
-
-  </section>
-
-
-
-  <section id="contact me">
-    <div class="contactform">
-      <form action="34464ca49884086e7f7aa45e5ec8a329" method="POST">
-        <input type="hidden" name="_template" value="table">
-        <h2>Send a Message</h2>
-        <div class="formBox">
-          <div class="inputBox w50">
-            <input type="text" name="Firstname" required>
-            <span>First Name</span>
-          </div>
-          <div class="inputBox w50">
-            <input type="text" name="Lastname" required>
-            <span>Last Name</span>
-          </div>
-
-          <div class="inputBox w50">
-            <input type="text" name="Email address" required>
-            <span>Email Address</span>
-          </div>
-
-          <div class="inputBox w50">
-            <input type="text" name="Mobile number" required>
-            <span>Mobile Number </span>
-          </div>
-
-          <div class="inputBox w100">
-
-            <textarea name="Message" required></textarea>
-            <span>Write Your message here....</span>
-          </div>
-
-          <div class="inputBox w100">
-            <input onclick="myButton()" type="submit" value="Send">
-          </div>
-       <input type="hidden" name="_next" value="https://jacktone-wambui.github.io/Jacktone.github.io/">
-        </div>
-      </form>
-    </div>
-
   </section>
 
 </body>
@@ -221,10 +176,8 @@
   </div>
   <p>For any enquiries, email me <a href="mailto:jacktoneabongo@gmail.com">here</a></p>
 
-  <!-- HTML -->
   <p id="copyright">Copyright &copy;Jacktone wambui <span id="year"></span></p>
 
-  <!-- JavaScript -->
   <script>
     var currentYear = new Date().getFullYear();
     document.getElementById("year").innerHTML = currentYear;
