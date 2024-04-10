@@ -48,7 +48,6 @@ body {
 .text{
   display: none;
 }
-
 .active {
   background-color: #04AA6D;
   color: black;
@@ -153,7 +152,7 @@ color:teal;
 	bottom: 0;
 }
 .homeimg{
-  height:50vh;
+  max-height:50vh;
   align-self: center;
 }
 .skills {
@@ -280,7 +279,7 @@ textarea.form-control {
 .btn:hover {
   background-color: #008080;
 }
-@media (min-width:796px) {
+@media (max-width:500px) {
 
   .flex-container{
     display: flex;
@@ -295,27 +294,30 @@ textarea.form-control {
     padding-bottom: 50px;
     
   }
-  .hometxtimg{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-  }
-  .hometxt{
-    padding-top: 70px;
-    padding-left: 35px;
-  }
-  .picha{
-    flex-direction: row;
-  }
   footer{
-    padding-left: 400px;
+    display: flex;
+    min-width: 500px;
   }
-  .share{
-    padding-left: 270px;
+  .container {
+    display: inline-block; 
+    min-width: 500px;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 240px;
   }
-.pichaimg{  
-  width: 550px;
-  height: 370px;
-}
+  .sidebar{
+    height: 350vh;
+  }
+  .home{
+    display: flex; 
+    min-width: 500px;
+    margin-left: 350px;
+  } 
+  .pichatxt {
+    position: absolute;
+    left: 630px;
+    width: 100%;
+    top: 650px;
+  }
 }
