@@ -161,7 +161,6 @@ color:teal;
   min-width: 700px;
   margin: 0 auto;
   margin-left: 240px;
-  background-color: #f5f5f5;
   padding: 20px;
 }
 
@@ -216,7 +215,6 @@ progress:after {
   min-width: 700px;
   margin-left: 220px;
   margin-top: 50px;
-  
 }
 .ty{
  object-fit: cover;
@@ -235,9 +233,10 @@ progress:after {
   border-color: #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
 }
-
+.numbertext{
+  display: none;
+}
 h4 {
   text-align: center;
   font-size: 3em;
