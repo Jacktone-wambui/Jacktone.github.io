@@ -52,8 +52,8 @@ body {
 
 #about .content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 50px;
@@ -65,12 +65,17 @@ body {
 #about .pichaimg {
   max-width: 350px; 
   max-height: 250px; 
-  width: 50%;
 }
 
-#about .pichatxt {
-  width: 50%;
+.pichatxt {
+  position: absolute;
+  width: 45%;
+  top: 500px;
+  right: 20px;
   
+}
+.dot{
+  display: none;
 }
 .content{
   padding: 0%;
@@ -148,8 +153,9 @@ color:green;
 }
 .skills {
   font-family: Arial, sans-serif;
-  max-width: 700px;
+  min-width: 700px;
   margin: 0 auto;
+  margin-left: 240px;
   background-color: #f5f5f5;
   padding: 20px;
 }
@@ -169,17 +175,22 @@ color:green;
 .skills li {
   margin-bottom: 10px;
   width: 50%;
+  
 }
 
 .skills li span {
   display: inline-block;
-  width: 200px;
+  width: 150px;
   font-weight: bold;
 }
 
 .skills progress {
   width: 200px;
   height: 10px;
+}
+progress:after {
+  content: attr(value)'%';
+  margin-left: 210px;
 }
 
 .otoyo{
@@ -210,6 +221,9 @@ color:green;
 }
 .ty:hover{
 	transform: scale(1.2);
+}
+.container{
+  margin-left: 240px;
 }
 @media (min-width:796px) {
 
