@@ -14,7 +14,7 @@
 <body>
      
   <div class="sidebar">
-    <a href="#home">  <i class="fa-solid fa-house"></i>  Home</a>
+    <a href="#ihome">  <i class="fa-solid fa-house"></i>  Home</a>
     <a href="#skills"><i class="fa-solid fa-skull-crossbones"></i> Skills</a>
     <a href="#projects"><i class="fa-solid fa-screwdriver-wrench"></i>  Projects</a>
     <a href="#services"><i class="fa-solid fa-file"></i>  Resume</a>
@@ -23,24 +23,19 @@
 
   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
 
-  <section id="home" class="home">
-    <div class="text-box">
-      <div class="hometxtimg">
-        <div class="homeimg">
+  <section id="ihome">
+    <div class="home">
           <img src="Screenshot_20220815-212344_Instagram 1.png" alt="Jacktone Wambui" class="homeimg">
-        </div>
-
         <div class="hometxt">
-          <h2>Hi , I'm Jacktone Wambui</h2><br>
+          <h2>Hi , I'm Jacktone Wambui</h2>
           <h2>I'm a <span class="auto-input"></span></h2><br>
-          <p style="color: blue;">"The Quality Of Life Is Determined By It's Activities"</p><br><br>
-          <a href="https://api.whatsapp.com/send/?phone=0740213210&text&type=phone_number&app_absent=0">
-            <i class="fab fa-whatsapp fa-3x teal"></i></a>
-          <a href="Jacktones software developer.pdf" download class="tn">Download cv</a>
-
+          <p style="color: blue;">"The Quality Of Life Is Determined By It's Activities"</p>
+          <div class="text-box">
+            <a href="https://api.whatsapp.com/send/?phone=0740213210&text&type=phone_number&app_absent=0">
+              <i class="fab fa-whatsapp fa-3x teal"></i></a>
+            <a href="Jacktones software developer.pdf" download class="tn">Download cv</a>
+          </div>
         </div>
-
-      </div>
     </div>
   </section>
 
@@ -66,7 +61,7 @@
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="20221121_063421.png" class="pichaimg">
+            <img style="width: 470px; height: 280px;" src="20221121_063421.png" class="pichaimg">
             <div class="text">Caption Three</div>
           </div>
 
@@ -77,7 +72,7 @@
           <span class="dot"></span>
      </div>
     </div>
-  </section>
+  
         
         <div class="pichatxt">
           <p>I am a strategic thinker and motivated individual with problem solving and teamwork as my core competencies
@@ -90,9 +85,7 @@
               href="http://shorturl.at/biRUY">Here</a></p>
           <br>
         </div>
-      
-    
- 
+    </section>
 
  <section id="skills" class="skills">
     <h4 style="text-align: center; margin-bottom: 20px; font-size: 3em; color: teal;">Skills</h4>
@@ -196,23 +189,18 @@
 </body>
 
 <footer>
-
-  <div class="share">
+  <div class="social">
     <a href="https://twitter.com/JacktoneWambui" class="fab fa-twitter teal"></a>
     <a href="https://github.com/jacktone-wambui" class="fab fa-github teal"></a>
     <a href="https://www.behance.net/jackwarren8" class="fab fa-behance teal"></a>
     <a href="https://www.linkedin.com/in/jacktone-wambui/" class="fab fa-linkedin teal"></a>
+    <p>For any enquiries, email me <a href="mailto:jacktoneabongo@gmail.com">here</a></p>
+    <p id="copyright">Copyright &copy;Jacktone wambui <span id="year"></span></p>
   </div>
-  <p>For any enquiries, email me <a href="mailto:jacktoneabongo@gmail.com">here</a></p>
-
-  <p id="copyright">Copyright &copy;Jacktone wambui <span id="year"></span></p>
-
   <script>
     var currentYear = new Date().getFullYear();
     document.getElementById("year").innerHTML = currentYear;
   </script>
-
-
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

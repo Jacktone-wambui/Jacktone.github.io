@@ -20,7 +20,7 @@ body {
 
 .sidebar {
   width: 200px;
-  height: 200vh;
+  min-height: 400vh;
   background-color: black;
   position: fixed;
 }
@@ -53,28 +53,22 @@ body {
   background-color: #04AA6D;
   color: black;
 }
-
+#about{
+  font-family: Arial, sans-serif;
+  min-width: 700px;
+  margin: 0 auto;
+  margin-left: 240px;
+  padding: 20px;
+  margin-top: 30px;
+}
 #about .content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 50px;
-}
-
-#about .picha {
-  margin-left: 240px;
 }
 #about .pichaimg {
-  max-width: 350px; 
   max-height: 250px; 
-}
-
-.pichatxt {
-  position: absolute;
-  width: 45%;
-  top: 500px;
-  right: 20px;
-  
+  padding-left: 150px;
 }
 .dot{
   display: none;
@@ -107,28 +101,23 @@ body {
 	width: 120px;
 	cursor: pointer;
 }
-
-.text-box{
-padding: 0%;
-}
-.text-box h1{
-font-size: 3em;
-}
 .text-box a{
-
 	display: inline-block;
 	padding:10px 30px;
-  color: green;
 }
-footer
-{
-    background-color: #000000;
-    color:#ffffff;
-    bottom: 0;
-    margin-left: 220px;
+footer{
+  font-family: Arial, sans-serif;
+  min-width: 700px;
+  margin: 0 auto;
+  margin-left: 240px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
 }
-footer .share{
-  padding-left: 30px;
+.social{
+  margin-left: 250px;
+  display: inline-block;
 }
 .text-box .tn{
 	background: teal;
@@ -142,11 +131,19 @@ footer .share{
 .auto-input{
 color:teal;
 }
+#ihome{
+  font-family: Arial, sans-serif;
+  min-width: 700px;
+  margin: 0 auto;
+  margin-left: 240px;
+  padding: 20px;
+}
 .home{
   display: flex;
-  align-content: center;
-  justify-content: center;
-  border-radius: 10px;
+}
+.hometxt{
+  padding-left: 50px;
+  padding-top: 70px;
 }
 .img{
 	position: absolute;
@@ -154,7 +151,6 @@ color:teal;
 }
 .homeimg{
   height:50vh;
-  align-self: center;
 }
 .skills {
   font-family: Arial, sans-serif;
@@ -196,7 +192,6 @@ progress:after {
   content: attr(value)'%';
   margin-left: 210px;
 }
-
 .otoyo{
   display: grid;
 }
@@ -218,21 +213,24 @@ progress:after {
 }
 .ty{
  object-fit: cover;
+ padding-left: 100px;
  max-height: 100px;
 
 }
 .ty:hover{
 	transform: scale(1.2);
 }
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+.container { 
   background-color: #f4f4f4;
   border-style: solid;
   border-color: #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  min-width: 600px;
+  margin: 0 auto;
+  margin-left: 240px;
+  padding: 20px;
 }
 .numbertext{
   display: none;
@@ -295,27 +293,4 @@ textarea.form-control {
     padding-bottom: 50px;
     
   }
-  .hometxtimg{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-  }
-  .hometxt{
-    padding-top: 70px;
-    padding-left: 35px;
-  }
-  .picha{
-    flex-direction: row;
-  }
-  footer{
-    padding-left: 400px;
-  }
-  .share{
-    padding-left: 270px;
-  }
-.pichaimg{  
-  width: 550px;
-  height: 370px;
-}
 }
