@@ -285,7 +285,7 @@ textarea.form-control {
 }
 @media (min-width:796px) {
   .sidebar{
-	  display:none
+	  display:none;
   }
   .flex-container{
     display: flex;
