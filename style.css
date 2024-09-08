@@ -284,7 +284,9 @@ textarea.form-control {
   background-color: #008080;
 }
 @media (min-width:796px) {
-
+  .sidebar{
+	  display:none
+  }
   .flex-container{
     display: flex;
     flex-direction: row;
