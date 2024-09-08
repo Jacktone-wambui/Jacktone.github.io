@@ -23,7 +23,6 @@ body {
   min-height: 400vh;
   background-color: black;
   position: fixed;
-  display: none;
 }
 
 .sidebar a {
